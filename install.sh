@@ -39,5 +39,6 @@ tmux new -d -s __noop >/dev/null 2>&1 || true
 tmux set-environment -g TMUX_PLUGIN_MANAGER_PATH "~/.tmux/plugins"
 "$HOME"/.tmux/plugins/tpm/bin/install_plugins || true
 tmux kill-session -t __noop >/dev/null 2>&1 || true
-
+sudo apt install xclip
+sudo apt-get install fonts-powerline
 printf "OK: Completed\n"

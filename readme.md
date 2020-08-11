@@ -17,6 +17,7 @@ Table of contents
 1. [Clipboard integration](#clipboard-integration)
 1. [Themes and customization](#themes-and-customization)
 1. [iTerm2 and tmux integration](#iterm2-and-tmux-integration)
+1. [Requirements](#requirements)
 
 Features
 ---------
@@ -474,3 +475,12 @@ As additional step, you can setup this new iTerm profile as default one, and tel
 You can then go full screen in iTerm, so iTerm tabs and frame do not distract you (anyway now you're using iTerm just as a tunnel to your tmux, everything else happens inside tmux).
 
 ![full screen mode](https://user-images.githubusercontent.com/768858/33185303-54fa0378-d08a-11e7-8fd3-068f0af712c7.png)
+
+
+Requirements
+---------
+
+```
+sudo apt install xclip
+sudo apt-get install fonts-powerline
+```
